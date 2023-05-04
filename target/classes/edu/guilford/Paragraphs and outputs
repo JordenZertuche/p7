@@ -1,0 +1,48 @@
+
+First run: with 1000 set as the equals
+Time to get 1,000,000 random elements from an ArrayList: 17.14 milliseconds
+Time to get 1,000,000 random elements from a LinkedList: 409.51 milliseconds
+Time to sort an ArrayList: 3.32 milliseconds
+Time to sort a LinkedList: 1.85 milliseconds
+Time to sort an ArrayList and LinkedList using merge sort: 0.00 milliseconds
+Time to get each element from an ArrayList sequentially: 0.05 milliseconds
+
+
+Second run: with 5000 set as the equals
+Time to get 1,000,000 random elements from an ArrayList: 10.31 milliseconds
+Time to get 1,000,000 random elements from a LinkedList: 1861.57 milliseconds
+Time to sort an ArrayList: 11.26 milliseconds
+Time to sort a LinkedList: 9.66 milliseconds
+Time to sort an ArrayList and LinkedList using merge sort: 0.00 milliseconds
+Time to get each element from an ArrayList sequentially: 0.25 milliseconds
+
+
+Third run: with 10000 set as the equals
+Time to get 1,000,000 random elements from an ArrayList: 2.30 milliseconds
+Time to get 1,000,000 random elements from a LinkedList: 3367.36 milliseconds
+Time to sort an ArrayList: 7.57 milliseconds
+Time to sort a LinkedList: 5.39 milliseconds
+Time to sort an ArrayList and LinkedList using merge sort: 0.00 milliseconds
+Time to get each element from an ArrayList sequentially: 1.00 milliseconds
+
+paragraph:
+Based upon the inital runs of the first three constants for the elements the quick impression is that typically the larger the number of elements the longer the wait time per run time. as well as the gradual increase in run time for the sequential runtime in comparison to the other gets. as for the sorting times for my program it seemed to be that the 5000 elements ran slower then the 1000 and the 10000 for some odd reason when I ran the two multiple times just to be sure with the 5000 taking longer then expected. I can infer that its something to do with the coding and run time on my end after tinkering with it however that was the end result regardless of my edits. when it comes to the implementation of wanting a fast result back using the sequential method is the best when used on smaller data or number of elements however if one wants to get back the fastest method one in comparision to the other methods listed as merge sort remained the same. the results are normally constistent when it comes to the average time increasing as the number of elements gradually grows over time as well with the addtional runs down below causing the program to almost stall out or freeze when it came to running as the first three would run within a few seconds while the bottom two could take a minute to 30 seconds when timed. this back the idea that the lower amount of elements regardless of the implamentations generally lead to a faster runtime for the program. the best implementation method is the sequential and the best overall method are the gets as it will get the elements in a fast amount of time regardless of the amount of milliseconds it will give you as the cmputer can handle the request fast.
+
+additional runs
+
+Fourth run: with 50000 set as equals
+Time to get 1,000,000 random elements from an ArrayList: 5.73 milliseconds
+Time to get 1,000,000 random elements from a LinkedList: 16964.83 milliseconds
+Time to sort an ArrayList: 28.79 milliseconds
+Time to sort a LinkedList: 31.19 milliseconds
+Time to sort an ArrayList and LinkedList using merge sort: 0.00 milliseconds
+Time to get each element from an ArrayList sequentially: 4.04 milliseconds
+
+Fifth Run: with 100000 set as equals
+Time to get 1,000,000 random elements from an ArrayList: 15.21 milliseconds
+Time to get 1,000,000 random elements from a LinkedList: 30505.79 milliseconds
+Time to sort an ArrayList: 46.51 milliseconds
+Time to sort a LinkedList: 97.69 milliseconds
+Time to sort an ArrayList and LinkedList using merge sort: 0.00 milliseconds
+Time to get each element from an ArrayList sequentially: 0.81 milliseconds
+
